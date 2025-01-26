@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site officiel du Dr Adrien Garnier, chirurgien oral, entrepreneur et coach sportif.">
     <title>Dr Adrien Garnier - Chirurgien Oral & Entrepreneur</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -13,7 +15,7 @@
             <p>Chirurgien oral, entrepreneur, coach sportif, père et visionnaire</p>
         </div>
     </header>
-    <nav>
+    <nav aria-label="Navigation principale">
         <ul>
             <li><a href="#about">À propos</a></li>
             <li><a href="#services">Services</a></li>
@@ -21,16 +23,16 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="about">
+    <section id="about" aria-labelledby="about-title">
         <div class="container">
-            <h2>À propos de moi</h2>
+            <h2 id="about-title">À propos de moi</h2>
             <p>Je suis Dr Adrien Garnier, chirurgien oral et implantologiste associé à <strong>It's Your Smile</strong> à Genève, coach sportif certifié en Suisse, et entrepreneur passionné. Fondateur de la marque <strong>PREREK</strong> et co-fondateur de <strong>WAKE & SMILE</strong>, je m’efforce d’allier innovation, santé et bien-être.</p>
             <p>En dehors de ma carrière professionnelle, je suis un père fier de deux enfants merveilleux et l’époux d’une femme exceptionnelle.</p>
         </div>
     </section>
-    <section id="services">
+    <section id="services" aria-labelledby="services-title">
         <div class="container">
-            <h2>Services professionnels</h2>
+            <h2 id="services-title">Services professionnels</h2>
             <ul>
                 <li><strong>Chirurgie orale et implantologie :</strong> Reconstructions osseuses complexes, implants et extractions.</li>
                 <li><strong>Coaching sportif :</strong> Programmes personnalisés de sport et nutrition.</li>
@@ -38,9 +40,9 @@
             </ul>
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" aria-labelledby="projects-title">
         <div class="container">
-            <h2>Mes projets</h2>
+            <h2 id="projects-title">Mes projets</h2>
             <ul>
                 <li><strong>PREREK :</strong> Compléments alimentaires pour la récupération post-chirurgicale.</li>
                 <li><strong>WAKE & SMILE :</strong> Activités nautiques comme le wakeboard et le wakesurf.</li>
@@ -48,25 +50,7 @@
             </ul>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" aria-labelledby="contact-title">
         <div class="container">
-            <h2>Contactez-moi</h2>
-            <p><strong>Email :</strong> a.garnier@itsyoursmile.ch</p>
-            <p><strong>Téléphone :</strong> +41 22 732 88 27</p>
-            <p><strong>Adresse :</strong> Bd James Fazy 10, 1201 Genève, Suisse</p>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Dr Adrien Garnier | Tous droits réservés</p>
-        </div>
-    </footer>
-    <div style="text-align: center; margin-top: 50px;">
-    <img src="images/Dr-Adrien-Garnier-4k-black.png" alt="Logo Dr Adrien Garnier" style="width: 150px; margin: 10px;">
-    <img src="images/Logo IYS black GVV.png" alt="Logo It's Your Smile" style="width: 150px; margin: 10px;">
-    <img src="images/Wake-and-smile_logo_1x1.png" alt="Logo Wake and Smile" style="width: 150px; margin: 10px;">
-</div>
-</body>
-</html>
-
-
+            <h2 id="contact-title">Contactez-moi</h2>
+            <p><strong>Email :</strong> <a href="mailto:a.garnier@itsyoursmile.ch">a.g
